@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spanish Color Vocabulary</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>COLORS</h1>
+    <h2>Learn the colors in Spanish!</h2>
+    <h3>Click the images..</h3>
+
+    <h2 class="color-title" id="red">Rojo</h2>
+    <img src="./assets/images/red.png" alt="red" id="toggle-image1" onclick="toggleImage1()" />
+
+    <script>
+    let isOriginal1 = true;
+    function toggleImage1() {
+    const img = document.getElementById("toggle-image1");
+    if (isOriginal1) {
+        img.src = "./assets/images/r-caracter.jpg";
+    } else {
+        img.src = "./assets/images/red.png";
+    }
+    isOriginal1 = !isOriginal1;
+    }
+    </script>
+
+    <h2 class="color-title" id="blue">Azul</h2>
+    <img src="./assets/images/blue.png" alt="Blue" id="toggle-image2" onclick="toggleImage2()" />
+
+    <script>
+    let isOriginal2 = true;
+    function toggleImage2() {
+    const img = document.getElementById("toggle-image2");
+    if (isOriginal2) {
+        img.src = "./assets/images/Blu.webp";
+    } else {
+        img.src = "./assets/images/blue.png";
+    }
+    isOriginal2 = !isOriginal2;
+    }
+    </script>
+
+    <h2 class="color-title" id="purple">Morado</h2>
+    <img src="./assets/images/purple.png" alt="purple" id="toggle-image6" onclick="toggleImage6()"/>
+    <script>
+    let isOriginal6 = true;
+    function toggleImage6() {
+    const img = document.getElementById("toggle-image6");
+    if (isOriginal6) {
+        img.src = "./assets/images/p-caracter.jpg";
+    } else {
+        img.src = "./assets/images/purple.png";
+    }
+    isOriginal6 = !isOriginal6;
+    }
+    </script>
+
+    <h2 class="color-title" id="orange">Anaranjado</h2>
+    <img src="./assets/images/orange.png" alt="orange" id="toggle-image3" onclick="toggleImage3()"/>
+    <script>
+    let isOriginal3 = true;
+    function toggleImage3() {
+    const img = document.getElementById("toggle-image3");
+    if (isOriginal3) {
+        img.src = "./assets/images/o-caracter.jpg";
+    } else {
+        img.src = "./assets/images/orange.png";
+    }
+    isOriginal3 = !isOriginal3;
+    }
+    </script>
+
+
+    <h2 class="color-title" id="green">Verde</h2>
+    <img src="./assets/images/green.png" alt="green" id="toggle-image4" onclick="toggleImage4()"/>
+    <script>
+    let isOriginal4 = true;
+    function toggleImage4() {
+    const img = document.getElementById("toggle-image4");
+    if (isOriginal4) {
+        img.src = "./assets/images/g.jpg";
+    } else {
+        img.src = "./assets/images/green.png";
+    }
+    isOriginal4 = !isOriginal4;
+    }
+    </script>
+
+    <h2 class="color-title" id="yellow">Amarillo</h2>
+    <img src="./assets/images/yellow.png" alt="yellow" id="toggle-image5" onclick="toggleImage5()"/>
+    <script>
+    let isOriginal5 = true;
+    function toggleImage5() {
+    const img = document.getElementById("toggle-image5");
+    if (isOriginal5) {
+        img.src = "./assets/images/y-caracter.jpg";
+    } else {
+        img.src = "./assets/images/yellow.png";
+    }
+    isOriginal5 = !isOriginal5;
+    }
+    </script>
+
+    
+
+</body>
+</html>
